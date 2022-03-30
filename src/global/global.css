@@ -1,0 +1,13 @@
+:root{
+    --title:#ed145b;
+    --skills:#ed145b;
+    --background: #151819;
+    --background2: #212528;
+    --background3: #13172a;
+    --text:#E5E6EC;
+    --subText:#969aaf;
+}
+
+h1,h2,h3,p,span{
+    font-family:"Open Sans", Arial, sans-serif;
+}

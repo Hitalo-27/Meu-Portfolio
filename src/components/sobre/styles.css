@@ -1,0 +1,56 @@
+.conteinerInfo{
+    background-color: var(--background);
+    height: 400px;
+    align-items: center;
+}
+
+.sobreMim{
+    margin-left: 10%;
+    width: 30%;
+}
+
+.infoPessoal{
+    background-color: var(--background2);
+    box-shadow: 0px 30px 120px 0px var(--title);
+    margin-left: 10%;
+    width: 40%;
+    height: 150px;
+}
+
+.infoPessoal h2{
+    margin-top: 3%;
+}
+
+.infoPessoal h2{
+    margin-left: 3%;
+}
+
+.infoPessoalDiv{
+    display: flex;
+    margin: 3%;
+}
+.infoPessoalDivDireita{
+    margin-left: 5%;
+}
+
+.title{
+    color: var(--text);
+    margin-bottom: 5%;
+}
+.text{
+    color: var(--subText);
+    line-height: 2;
+}
+
+.infoPessoalDiv li{
+    list-style: none;
+}
+
+.spanClassificacao{
+    color: var(--text);
+    font-weight: bold;
+}
+
+.spanDados{
+    color: var(--subText);
+}

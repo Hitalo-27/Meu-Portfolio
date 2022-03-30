@@ -1,0 +1,291 @@
+.skillsIdiomas{
+    background-color: var(--background);
+}
+.skillsIdiomas h2{
+    margin-left: 10%;
+    color: var(--text);
+    padding-top: 5%;
+}
+
+.divSkillsIdiomas{
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.divSkillsIdiomas h2{
+    margin: 0;
+    padding: 0;
+}
+
+.divSkills{
+    display: flex;
+    width: 50%;
+}
+
+.divSkills h3{
+    color: var(--text);
+}
+
+/* =========================
+   PROGRESS BARS #1
+   ========================= */
+   .final__animation-bar-1 {
+    position: relative;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    margin-bottom: 5%;
+  }
+  .final__animation-bar-1 span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--skills);
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, var(--skills), var(--skills));
+    animation: progress-anim-1 1.0s linear;
+  }
+  .final__animation-bar-1 span:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #ffffff 25%,
+                                     rgba(0, 0, 0, 0) 25%,
+                                     rgba(0, 0, 0, 0) 50%,
+                                     #ffffff 50%,
+                                     #ffffff 75%,
+                                     rgba(0, 0, 0, 0) 75%,
+                                     rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: progress-anim-1-after 0.5s infinite linear;
+  }
+
+
+  @-webkit-keyframes progress-anim-1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes progress-anim-1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  
+  @-webkit-keyframes progress-anim-1-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+  @keyframes progress-anim-1-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+
+
+
+  /* =========================
+   PROGRESS BARS #2
+   ========================= */
+  .option2 span {
+    animation: progress-anim-2 1.0s linear;
+  }
+  .option2 span:after {
+    animation: progress-anim-2-after 0.5s infinite linear;
+  }
+
+
+  @-webkit-keyframes progress-anim-2 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes progress-anim-2 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  
+  @-webkit-keyframes progress-anim-2-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+  @keyframes progress-anim-2-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+
+
+  /* =========================
+   PROGRESS BARS #3
+   ========================= */
+  .option3 span {
+    animation: progress-anim-3 1.0s linear;
+  }
+  .option3 span:after {
+    animation: progress-anim-3-after 0.5s infinite linear;
+  }
+
+
+  @-webkit-keyframes progress-anim-3 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+  @keyframes progress-anim-3 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+  
+  @-webkit-keyframes progress-anim-3-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+  @keyframes progress-anim-3-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+
+  /* =========================
+   PROGRESS BARS #4
+   ========================= */
+  .git span {
+    animation: progress-anim-4 1.0s linear;
+  }
+  .git span:after {
+    animation: progress-anim-4-after 0.5s infinite linear;
+  }
+
+
+  @-webkit-keyframes progress-anim-4 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 20%;
+    }
+  }
+  @keyframes progress-anim-4 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 20%;
+    }
+  }
+  
+  @-webkit-keyframes progress-anim-4-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+  @keyframes progress-anim-4-after {
+    0% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 30px 100%;
+    }
+  }
+
+  
+
+.divSkills p{
+  color: var(--text);
+}
+
+.github{
+  margin-bottom: 20%;
+}
+
+.divIdiomas{
+    background-color: var(--background2);
+    box-shadow: 0px 30px 120px 0px var(--title);
+    width: 35%;
+    margin-left: 3%;
+    height: 160px;
+}
+
+.divIdiomas h2{
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.divIdiomas2{
+    display: flex;
+    margin-left: 13%;
+}
+
+.divIdiomas2 .lingua{
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.divIdiomas2 .classLingua{
+  color: var(--subText);
+  margin-bottom: 1%;
+}
+.divClassificacao{
+    margin-left: 13%;
+}

@@ -1,0 +1,38 @@
+.divEducation{
+    background-color: var(--background2);
+    height: 500px;
+}
+.h2Educacao{
+    margin-left: 10%;
+    padding-top: 5%;
+    color: var(--text);
+}
+
+.formacao{
+    display: flex;
+}
+.etec{
+    background-color: var(--background);
+    box-shadow: 0px 30px 120px 0px var(--title);
+    width: 40%;
+    height: 200px;
+    margin-left: 6%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.etec h3{
+    color: var(--text);
+    margin-top: 2%;
+}
+
+.etec p{
+    color: var(--subText);
+}
+
+.detailsEtec{
+    width: 100%;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+}
